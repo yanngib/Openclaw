@@ -69,9 +69,8 @@ PROMPT = """
     # TASK
     - Create a structured summary
     - Give key points
-    - Creat action items    
+    - Create action items    
     - Transcription of the attached audio exactly as heard into a structured Markdown document. 
-
 
 
     # CONSTRAINTS & RULES
@@ -94,7 +93,7 @@ PROMPT = """
     4. **Bilingual Handling**:
        - Transcribe in the language spoken. If speakers switch between languages, capture the transition exactly without translating.
 
-    # OUTPUT FORMAT
+    # OUTPUT FORMAT FOR TRANSCRIPTION
     **[Timestamp] Speaker Name**: [Verbatim Text]
 """
 
